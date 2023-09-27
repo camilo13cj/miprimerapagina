@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/c9b6332a28.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo">Edwin Cruz</a>
+        <button class="nav-toggel">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="" class="nav-menu-link">Blog</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="" class="nav-menu-link">Videos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="" class="nav-menu-link">Sobre mi</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="" class="nav-menu-link nav-menu-link_active">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contenedor">
+        <h2>Sobre mi</h2>
+        <p class="sobremi">
+          Mi nombre es Edwin Cruz, soy un hombre oriundo del municipio de cienga
+          ubicado en el departamento de Boyacá, Colombia. Ahi realice mis
+          estudios de educacion basica. Actualmente me encuentro viviendo en la
+          ciudad de Duitama Boyaca, trabajando como tecnico instalador para una
+          epresa de internet. Mis planes a futuro son conseguir un trabajo como
+          programador full stark
+        </p>
+        <img
+          class="img"
+          src="IMG/EDWIN CRUZ.jpg"
+          alt="Edwin Cruz"
+          height="500"
+          width="500"
+        />
+      </section>
+      <section class="contenedor2">
+        <h2>Proyecto 1</h2>
+        <p>
+          Como futuro programadorme me esforzare por crear una pagina de venta
+          online
+        </p>
+        <img
+          src="IMG/tiendavirtual.jpg"
+          alt=" Tienda Virtual"
+          height="350"
+          width="500"
+        />
+        <h2>Proyecto 2</h2>
+        <p>Trabajare para una firma extranjera</p>
+      </section>
+    </main>
+    <footer class="form-header">
+      <!-- Formulario -->
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input
+            id="nombre"
+            name="nombre"
+            type="text"
+            placeholder="Aqui tu nombre"
+          />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="pepe@gmail.com"
+            required
+          />
+        </div>
+        <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+          <button>Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+      </form>
+      <!-- Fin del formulario -->
+
+      <div>
+        <p class="ed">REDES SOCIALES</p>
+      </div>
+
+      <nav class="nav-down">
+        <ul class="horizontal-list">
+          <li class="item-dawn">
+            <a
+              class="item-dawn_img"
+              href="http://wa.me/573214024201"
+              target="_blank"
+            >
+              <img
+                class="imgWhatsApp"
+                src="IMG/icons8-whatsapp.gif"
+                alt="WhatsApp"
+              />
+            </a>
+          </li>
+          <li class="item-dawn">
+            <a
+              class="item-dawn_img"
+              href="https://www.instagram.com/edwin_c_c_j/"
+              target="_blank"
+            >
+              <img
+                class="imgInstagram"
+                src="IMG/icons8-instagram-viejo.gif"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+          <li class="item-dawn">
+            <a
+              class="item-dawn_img"
+              href="https://www.facebook.com/camilo.cruzjimenez"
+              target="_blank"
+            >
+              <img
+                class="imgFacebook"
+                src="IMG/icons8-facebook.gif"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
