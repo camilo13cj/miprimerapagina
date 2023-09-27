@@ -225,7 +225,7 @@ footer {
 .imgFacebook {
   width: 50px;
   margin: 5px;
-  border: 1px solid #e74c3c; /* Agrega el grosor del borde */
+ /*  border: 1px solid #070707; /* Agrega el grosor del borde */ */
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px grey;
   cursor: pointer;
